@@ -1,1 +1,21 @@
 /*  your css code here. If applicable */
+*{
+    background-color: #757575;
+}
+.animal-photos h1{
+    color: white;
+    text-align: center;
+	justify-content:center;
+}
+.animals{
+	width:90%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-template-columns: repeat(3,auto); */
+    justify-content: center;
+}
+.animals > img{
+    border-radius: 25px;
+    padding: 10px 10px;
+}
